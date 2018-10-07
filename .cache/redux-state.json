@@ -307,6 +307,145 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.6",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8f6c57c261f74d83a4e2f8a39fc940f5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-emotion": {
       "resolve": "/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-plugin-emotion",
       "id": "Plugin gatsby-plugin-emotion",
@@ -467,11 +606,14 @@
       "resolve": "/Users/tusharikasharma/project/demo/Pandas",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "69c51bdc969355b34f19d430990b3098",
+      "version": "f3329c8c840712416bbdc44ff707d5a5",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/tusharikasharma/project/demo/Pandas",
@@ -503,6 +645,10 @@
           {
             "name": "gatsby-source-filesystem",
             "version": "^2.0.2"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.6"
           },
           {
             "name": "react",
@@ -537,7 +683,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "93fad78a32d81d6dc98976c8f7b8225e",
+        "contentDigest": "832d75a4f99adc0d5beb65b2dcef4a0c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -645,12 +791,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-07T04:33:33.534Z",
+      "buildTime": "2018-10-07T19:16:50.183Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9635aff07c33592870f4d4ef54defaff",
+        "contentDigest": "0df2241579c53ce41189076efc97ccdc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -660,7 +806,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "97d8801c88001f6e188d9ac69ceac12c",
+        "contentDigest": "40a7192d2628075cd49856be23efaad4",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -669,11 +815,11 @@
       "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/",
       "relativePath": "",
       "extension": "",
-      "size": 170,
-      "prettySize": "170 B",
-      "modifiedTime": "2018-10-07T02:41:02.000Z",
-      "accessTime": "2018-10-07T04:33:37.000Z",
-      "changeTime": "2018-10-07T02:41:02.000Z",
+      "size": 204,
+      "prettySize": "204 B",
+      "modifiedTime": "2018-10-07T19:08:03.000Z",
+      "accessTime": "2018-10-07T19:16:52.000Z",
+      "changeTime": "2018-10-07T19:08:03.000Z",
       "birthTime": "2018-10-07T02:24:51.000Z",
       "root": "/",
       "dir": "/Users/tusharikasharma/project/demo/Pandas",
@@ -683,20 +829,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 5,
+      "nlink": 6,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 1992242,
       "blocks": 0,
-      "atimeMs": 1538886817000,
-      "mtimeMs": 1538880062000,
-      "ctimeMs": 1538880062000,
+      "atimeMs": 1538939812000,
+      "mtimeMs": 1538939283000,
+      "ctimeMs": 1538939283000,
       "birthtimeMs": 1538879091000,
-      "atime": "2018-10-07T04:33:37.000Z",
-      "mtime": "2018-10-07T02:41:02.000Z",
-      "ctime": "2018-10-07T02:41:02.000Z",
+      "atime": "2018-10-07T19:16:52.000Z",
+      "mtime": "2018-10-07T19:08:03.000Z",
+      "ctime": "2018-10-07T19:08:03.000Z",
       "birthtime": "2018-10-07T02:24:51.000Z"
     },
     "e3d9bc5f-d3e2-57ba-835d-fe79048b466a": {
@@ -704,7 +850,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "499646932ccf3349e13729271b945678",
+        "contentDigest": "67f609de797f0c5d51aa406be6137681",
         "type": "Directory",
         "description": "Directory \"src/components\"",
         "owner": "gatsby-source-filesystem"
@@ -716,7 +862,7 @@
       "size": 102,
       "prettySize": "102 B",
       "modifiedTime": "2018-10-07T02:35:14.000Z",
-      "accessTime": "2018-10-07T04:33:37.000Z",
+      "accessTime": "2018-10-07T19:16:52.000Z",
       "changeTime": "2018-10-07T02:35:14.000Z",
       "birthTime": "2018-10-07T02:34:59.000Z",
       "root": "/",
@@ -734,11 +880,11 @@
       "blksize": 4096,
       "ino": 2019738,
       "blocks": 0,
-      "atimeMs": 1538886817000,
+      "atimeMs": 1538939812000,
       "mtimeMs": 1538879714000,
       "ctimeMs": 1538879714000,
       "birthtimeMs": 1538879699000,
-      "atime": "2018-10-07T04:33:37.000Z",
+      "atime": "2018-10-07T19:16:52.000Z",
       "mtime": "2018-10-07T02:35:14.000Z",
       "ctime": "2018-10-07T02:35:14.000Z",
       "birthtime": "2018-10-07T02:34:59.000Z"
@@ -748,7 +894,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5c6d7361a12e46195097df95fb41955a",
+        "contentDigest": "516541963f808117f7e1f82aace0903b",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -757,11 +903,11 @@
       "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages",
       "relativePath": "pages",
       "extension": "",
-      "size": 136,
-      "prettySize": "136 B",
-      "modifiedTime": "2018-10-07T02:39:04.000Z",
-      "accessTime": "2018-10-07T04:33:37.000Z",
-      "changeTime": "2018-10-07T02:39:04.000Z",
+      "size": 238,
+      "prettySize": "238 B",
+      "modifiedTime": "2018-10-07T18:09:23.000Z",
+      "accessTime": "2018-10-07T19:16:52.000Z",
+      "changeTime": "2018-10-07T18:09:23.000Z",
       "birthTime": "2018-10-07T02:24:51.000Z",
       "root": "/",
       "dir": "/Users/tusharikasharma/project/demo/Pandas/src",
@@ -771,28 +917,72 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 7,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 2018324,
       "blocks": 0,
-      "atimeMs": 1538886817000,
-      "mtimeMs": 1538879944000,
-      "ctimeMs": 1538879944000,
+      "atimeMs": 1538939812000,
+      "mtimeMs": 1538935763000,
+      "ctimeMs": 1538935763000,
       "birthtimeMs": 1538879091000,
-      "atime": "2018-10-07T04:33:37.000Z",
-      "mtime": "2018-10-07T02:39:04.000Z",
-      "ctime": "2018-10-07T02:39:04.000Z",
+      "atime": "2018-10-07T19:16:52.000Z",
+      "mtime": "2018-10-07T18:09:23.000Z",
+      "ctime": "2018-10-07T18:09:23.000Z",
       "birthtime": "2018-10-07T02:24:51.000Z"
+    },
+    "60797a9c-cc17-575d-8cc0-3fcda5b8501d": {
+      "id": "60797a9c-cc17-575d-8cc0-3fcda5b8501d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "87770fec8d9fb5e40a5e758763dccbb3",
+        "type": "Directory",
+        "description": "Directory \"src/templates\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/templates",
+      "relativePath": "templates",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-10-07T19:08:27.000Z",
+      "accessTime": "2018-10-07T19:16:52.000Z",
+      "changeTime": "2018-10-07T19:08:27.000Z",
+      "birthTime": "2018-10-07T19:08:03.000Z",
+      "root": "/",
+      "dir": "/Users/tusharikasharma/project/demo/Pandas/src",
+      "base": "templates",
+      "ext": "",
+      "name": "templates",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2095125,
+      "blocks": 0,
+      "atimeMs": 1538939812000,
+      "mtimeMs": 1538939307000,
+      "ctimeMs": 1538939307000,
+      "birthtimeMs": 1538939283000,
+      "atime": "2018-10-07T19:16:52.000Z",
+      "mtime": "2018-10-07T19:08:27.000Z",
+      "ctime": "2018-10-07T19:08:27.000Z",
+      "birthtime": "2018-10-07T19:08:03.000Z"
     },
     "964ff961-c5e1-5dad-9ed6-8937b3855b23": {
       "id": "964ff961-c5e1-5dad-9ed6-8937b3855b23",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a22172ae23813b47e9d9d93af5691417",
+        "contentDigest": "4f500f02aae3b0d256551b57b944c53a",
         "type": "Directory",
         "description": "Directory \"src/utils\"",
         "owner": "gatsby-source-filesystem"
@@ -804,7 +994,7 @@
       "size": 102,
       "prettySize": "102 B",
       "modifiedTime": "2018-10-07T02:41:15.000Z",
-      "accessTime": "2018-10-07T04:33:37.000Z",
+      "accessTime": "2018-10-07T19:16:52.000Z",
       "changeTime": "2018-10-07T02:41:15.000Z",
       "birthTime": "2018-10-07T02:41:02.000Z",
       "root": "/",
@@ -822,149 +1012,14 @@
       "blksize": 4096,
       "ino": 2019857,
       "blocks": 0,
-      "atimeMs": 1538886817000,
+      "atimeMs": 1538939812000,
       "mtimeMs": 1538880075000,
       "ctimeMs": 1538880075000,
       "birthtimeMs": 1538880062000,
-      "atime": "2018-10-07T04:33:37.000Z",
+      "atime": "2018-10-07T19:16:52.000Z",
       "mtime": "2018-10-07T02:41:15.000Z",
       "ctime": "2018-10-07T02:41:15.000Z",
       "birthtime": "2018-10-07T02:41:02.000Z"
-    },
-    "3585dfa5-56ef-58a4-ab8a-2d7a1748a16c": {
-      "id": "3585dfa5-56ef-58a4-ab8a-2d7a1748a16c",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "41721eaee745159f999d926bbaca9524",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/about.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/about.js",
-      "relativePath": "pages/about.js",
-      "extension": "js",
-      "size": 468,
-      "prettySize": "468 B",
-      "modifiedTime": "2018-10-07T03:03:02.000Z",
-      "accessTime": "2018-10-07T03:17:56.000Z",
-      "changeTime": "2018-10-07T03:03:02.000Z",
-      "birthTime": "2018-10-07T02:39:04.000Z",
-      "root": "/",
-      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/pages",
-      "base": "about.js",
-      "ext": ".js",
-      "name": "about",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 2019763,
-      "blocks": 8,
-      "atimeMs": 1538882276000,
-      "mtimeMs": 1538881382000,
-      "ctimeMs": 1538881382000,
-      "birthtimeMs": 1538879944000,
-      "atime": "2018-10-07T03:17:56.000Z",
-      "mtime": "2018-10-07T03:03:02.000Z",
-      "ctime": "2018-10-07T03:03:02.000Z",
-      "birthtime": "2018-10-07T02:39:04.000Z"
-    },
-    "76718e53-ce52-5397-84c5-e4b44cc3f2d6": {
-      "id": "76718e53-ce52-5397-84c5-e4b44cc3f2d6",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "145dafc0b987270434ecbb27ba0549f6",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/index.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/index.js",
-      "relativePath": "pages/index.js",
-      "extension": "js",
-      "size": 369,
-      "prettySize": "369 B",
-      "modifiedTime": "2018-10-07T02:35:41.000Z",
-      "accessTime": "2018-10-07T03:17:56.000Z",
-      "changeTime": "2018-10-07T02:35:41.000Z",
-      "birthTime": "2018-10-07T02:24:51.000Z",
-      "root": "/",
-      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/pages",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 2018325,
-      "blocks": 8,
-      "atimeMs": 1538882276000,
-      "mtimeMs": 1538879741000,
-      "ctimeMs": 1538879741000,
-      "birthtimeMs": 1538879091000,
-      "atime": "2018-10-07T03:17:56.000Z",
-      "mtime": "2018-10-07T02:35:41.000Z",
-      "ctime": "2018-10-07T02:35:41.000Z",
-      "birthtime": "2018-10-07T02:24:51.000Z"
-    },
-    "fc18a60a-d564-500e-b603-0cd058b3eaff": {
-      "id": "fc18a60a-d564-500e-b603-0cd058b3eaff",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "4af740402acf168c61480c379eed660d",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/utils/typography.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/utils/typography.js",
-      "relativePath": "utils/typography.js",
-      "extension": "js",
-      "size": 204,
-      "prettySize": "204 B",
-      "modifiedTime": "2018-10-07T02:41:15.000Z",
-      "accessTime": "2018-10-07T03:17:56.000Z",
-      "changeTime": "2018-10-07T02:41:15.000Z",
-      "birthTime": "2018-10-07T02:41:15.000Z",
-      "root": "/",
-      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/utils",
-      "base": "typography.js",
-      "ext": ".js",
-      "name": "typography",
-      "relativeDirectory": "utils",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 2019862,
-      "blocks": 8,
-      "atimeMs": 1538882276000,
-      "mtimeMs": 1538880075000,
-      "ctimeMs": 1538880075000,
-      "birthtimeMs": 1538880075000,
-      "atime": "2018-10-07T03:17:56.000Z",
-      "mtime": "2018-10-07T02:41:15.000Z",
-      "ctime": "2018-10-07T02:41:15.000Z",
-      "birthtime": "2018-10-07T02:41:15.000Z"
     },
     "b8380736-80f6-5e94-a10a-f41e49c3eb3c": {
       "id": "b8380736-80f6-5e94-a10a-f41e49c3eb3c",
@@ -984,7 +1039,7 @@
       "size": 897,
       "prettySize": "897 B",
       "modifiedTime": "2018-10-07T03:17:55.000Z",
-      "accessTime": "2018-10-07T03:17:57.000Z",
+      "accessTime": "2018-10-07T19:05:47.000Z",
       "changeTime": "2018-10-07T03:17:55.000Z",
       "birthTime": "2018-10-07T02:35:14.000Z",
       "root": "/",
@@ -1002,14 +1057,427 @@
       "blksize": 4096,
       "ino": 2019743,
       "blocks": 8,
-      "atimeMs": 1538882277000,
+      "atimeMs": 1538939147000,
       "mtimeMs": 1538882275000,
       "ctimeMs": 1538882275000,
       "birthtimeMs": 1538879714000,
-      "atime": "2018-10-07T03:17:57.000Z",
+      "atime": "2018-10-07T19:05:47.000Z",
       "mtime": "2018-10-07T03:17:55.000Z",
       "ctime": "2018-10-07T03:17:55.000Z",
       "birthtime": "2018-10-07T02:35:14.000Z"
+    },
+    "3585dfa5-56ef-58a4-ab8a-2d7a1748a16c": {
+      "id": "3585dfa5-56ef-58a4-ab8a-2d7a1748a16c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "41721eaee745159f999d926bbaca9524",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/about.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/about.js",
+      "relativePath": "pages/about.js",
+      "extension": "js",
+      "size": 468,
+      "prettySize": "468 B",
+      "modifiedTime": "2018-10-07T03:03:02.000Z",
+      "accessTime": "2018-10-07T19:05:47.000Z",
+      "changeTime": "2018-10-07T03:03:02.000Z",
+      "birthTime": "2018-10-07T02:39:04.000Z",
+      "root": "/",
+      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2019763,
+      "blocks": 8,
+      "atimeMs": 1538939147000,
+      "mtimeMs": 1538881382000,
+      "ctimeMs": 1538881382000,
+      "birthtimeMs": 1538879944000,
+      "atime": "2018-10-07T19:05:47.000Z",
+      "mtime": "2018-10-07T03:03:02.000Z",
+      "ctime": "2018-10-07T03:03:02.000Z",
+      "birthtime": "2018-10-07T02:39:04.000Z"
+    },
+    "76718e53-ce52-5397-84c5-e4b44cc3f2d6": {
+      "id": "76718e53-ce52-5397-84c5-e4b44cc3f2d6",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3878d80975b834ce3b4ddcd5790ba4b9",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 1671,
+      "prettySize": "1.67 kB",
+      "modifiedTime": "2018-10-07T19:16:33.000Z",
+      "accessTime": "2018-10-07T19:16:33.000Z",
+      "changeTime": "2018-10-07T19:16:33.000Z",
+      "birthTime": "2018-10-07T02:24:51.000Z",
+      "root": "/",
+      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2018325,
+      "blocks": 8,
+      "atimeMs": 1538939793000,
+      "mtimeMs": 1538939793000,
+      "ctimeMs": 1538939793000,
+      "birthtimeMs": 1538879091000,
+      "atime": "2018-10-07T19:16:33.000Z",
+      "mtime": "2018-10-07T19:16:33.000Z",
+      "ctime": "2018-10-07T19:16:33.000Z",
+      "birthtime": "2018-10-07T02:24:51.000Z"
+    },
+    "8c17d305-504f-5c83-90c0-763861126a61": {
+      "id": "8c17d305-504f-5c83-90c0-763861126a61",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "be66fa58f1832ecf2cfa41ef1177746c",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/my-files.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/my-files.js",
+      "relativePath": "pages/my-files.js",
+      "extension": "js",
+      "size": 976,
+      "prettySize": "976 B",
+      "modifiedTime": "2018-10-07T05:05:12.000Z",
+      "accessTime": "2018-10-07T19:05:47.000Z",
+      "changeTime": "2018-10-07T05:05:12.000Z",
+      "birthTime": "2018-10-07T04:55:50.000Z",
+      "root": "/",
+      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/pages",
+      "base": "my-files.js",
+      "ext": ".js",
+      "name": "my-files",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2021896,
+      "blocks": 8,
+      "atimeMs": 1538939147000,
+      "mtimeMs": 1538888712000,
+      "ctimeMs": 1538888712000,
+      "birthtimeMs": 1538888150000,
+      "atime": "2018-10-07T19:05:47.000Z",
+      "mtime": "2018-10-07T05:05:12.000Z",
+      "ctime": "2018-10-07T05:05:12.000Z",
+      "birthtime": "2018-10-07T04:55:50.000Z"
+    },
+    "092d7696-8c37-5a0d-a915-08429ac60a76": {
+      "id": "092d7696-8c37-5a0d-a915-08429ac60a76",
+      "children": [
+        "dd07fd2f-c4cc-5a26-80f0-8ecc37b7c8c1"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "679ce8fcb2bd2895fd628e52c743edfd",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/pandas-and-bananas.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/pandas-and-bananas.md",
+      "relativePath": "pages/pandas-and-bananas.md",
+      "extension": "md",
+      "size": 291,
+      "prettySize": "291 B",
+      "modifiedTime": "2018-10-07T18:09:23.000Z",
+      "accessTime": "2018-10-07T19:05:43.000Z",
+      "changeTime": "2018-10-07T18:09:23.000Z",
+      "birthTime": "2018-10-07T18:09:23.000Z",
+      "root": "/",
+      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/pages",
+      "base": "pandas-and-bananas.md",
+      "ext": ".md",
+      "name": "pandas-and-bananas",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2093091,
+      "blocks": 8,
+      "atimeMs": 1538939143000,
+      "mtimeMs": 1538935763000,
+      "ctimeMs": 1538935763000,
+      "birthtimeMs": 1538935763000,
+      "atime": "2018-10-07T19:05:43.000Z",
+      "mtime": "2018-10-07T18:09:23.000Z",
+      "ctime": "2018-10-07T18:09:23.000Z",
+      "birthtime": "2018-10-07T18:09:23.000Z"
+    },
+    "8cd412d7-f44b-53ad-8760-cf0701ee3750": {
+      "id": "8cd412d7-f44b-53ad-8760-cf0701ee3750",
+      "children": [
+        "4bea90b1-8700-562b-b9cf-cf1a3bca670a"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8054470c6fc44807d4ee10027a347b61",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/sweet-pandas-eating-sweets.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/sweet-pandas-eating-sweets.md",
+      "relativePath": "pages/sweet-pandas-eating-sweets.md",
+      "extension": "md",
+      "size": 255,
+      "prettySize": "255 B",
+      "modifiedTime": "2018-10-07T18:00:35.000Z",
+      "accessTime": "2018-10-07T19:05:43.000Z",
+      "changeTime": "2018-10-07T18:00:35.000Z",
+      "birthTime": "2018-10-07T18:00:35.000Z",
+      "root": "/",
+      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/pages",
+      "base": "sweet-pandas-eating-sweets.md",
+      "ext": ".md",
+      "name": "sweet-pandas-eating-sweets",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2090151,
+      "blocks": 8,
+      "atimeMs": 1538939143000,
+      "mtimeMs": 1538935235000,
+      "ctimeMs": 1538935235000,
+      "birthtimeMs": 1538935235000,
+      "atime": "2018-10-07T19:05:43.000Z",
+      "mtime": "2018-10-07T18:00:35.000Z",
+      "ctime": "2018-10-07T18:00:35.000Z",
+      "birthtime": "2018-10-07T18:00:35.000Z"
+    },
+    "f508e6d9-e268-50dc-b57c-d718e5264a56": {
+      "id": "f508e6d9-e268-50dc-b57c-d718e5264a56",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "56fc882f1e44837aa373666a9f6c7ba5",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/templates/blog-post.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/templates/blog-post.js",
+      "relativePath": "templates/blog-post.js",
+      "extension": "js",
+      "size": 519,
+      "prettySize": "519 B",
+      "modifiedTime": "2018-10-07T19:14:08.000Z",
+      "accessTime": "2018-10-07T19:14:08.000Z",
+      "changeTime": "2018-10-07T19:14:08.000Z",
+      "birthTime": "2018-10-07T19:08:27.000Z",
+      "root": "/",
+      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/templates",
+      "base": "blog-post.js",
+      "ext": ".js",
+      "name": "blog-post",
+      "relativeDirectory": "templates",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2095134,
+      "blocks": 8,
+      "atimeMs": 1538939648000,
+      "mtimeMs": 1538939648000,
+      "ctimeMs": 1538939648000,
+      "birthtimeMs": 1538939307000,
+      "atime": "2018-10-07T19:14:08.000Z",
+      "mtime": "2018-10-07T19:14:08.000Z",
+      "ctime": "2018-10-07T19:14:08.000Z",
+      "birthtime": "2018-10-07T19:08:27.000Z"
+    },
+    "fc18a60a-d564-500e-b603-0cd058b3eaff": {
+      "id": "fc18a60a-d564-500e-b603-0cd058b3eaff",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4af740402acf168c61480c379eed660d",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/utils/typography.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/utils/typography.js",
+      "relativePath": "utils/typography.js",
+      "extension": "js",
+      "size": 204,
+      "prettySize": "204 B",
+      "modifiedTime": "2018-10-07T02:41:15.000Z",
+      "accessTime": "2018-10-07T19:05:47.000Z",
+      "changeTime": "2018-10-07T02:41:15.000Z",
+      "birthTime": "2018-10-07T02:41:15.000Z",
+      "root": "/",
+      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/utils",
+      "base": "typography.js",
+      "ext": ".js",
+      "name": "typography",
+      "relativeDirectory": "utils",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2019862,
+      "blocks": 8,
+      "atimeMs": 1538939147000,
+      "mtimeMs": 1538880075000,
+      "ctimeMs": 1538880075000,
+      "birthtimeMs": 1538880075000,
+      "atime": "2018-10-07T19:05:47.000Z",
+      "mtime": "2018-10-07T02:41:15.000Z",
+      "ctime": "2018-10-07T02:41:15.000Z",
+      "birthtime": "2018-10-07T02:41:15.000Z"
+    },
+    "dd07fd2f-c4cc-5a26-80f0-8ecc37b7c8c1": {
+      "id": "dd07fd2f-c4cc-5a26-80f0-8ecc37b7c8c1",
+      "children": [],
+      "parent": "092d7696-8c37-5a0d-a915-08429ac60a76",
+      "internal": {
+        "content": "\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" frameborder=\"0\" allowfullscreen></iframe>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6ed54963308560f87189576dfcf064e8",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Pandas and Bananas",
+        "date": "2017-08-21",
+        "_PARENT": "092d7696-8c37-5a0d-a915-08429ac60a76"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" frameborder=\"0\" allowfullscreen></iframe>\n",
+      "fileAbsolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/pandas-and-bananas.md",
+      "fields": {
+        "slug": "/pandas-and-bananas/"
+      }
+    },
+    "4bea90b1-8700-562b-b9cf-cf1a3bca670a": {
+      "id": "4bea90b1-8700-562b-b9cf-cf1a3bca670a",
+      "children": [],
+      "parent": "8cd412d7-f44b-53ad-8760-cf0701ee3750",
+      "internal": {
+        "content": "\nPandas are really sweet.\n\nHere's a video of a panda eating sweets.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "d7278ddabc38a95705a1406231117f9d",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Sweet Pandas Eating Sweets",
+        "date": "2017-08-10",
+        "_PARENT": "8cd412d7-f44b-53ad-8760-cf0701ee3750"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nPandas are really sweet.\n\nHere's a video of a panda eating sweets.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>\n",
+      "fileAbsolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/sweet-pandas-eating-sweets.md",
+      "fields": {
+        "slug": "/sweet-pandas-eating-sweets/"
+      }
+    },
+    "SitePage /pandas-and-bananas/": {
+      "jsonName": "pandas-and-bananas-c27",
+      "internalComponentName": "ComponentPandasAndBananas",
+      "path": "/pandas-and-bananas/",
+      "component": "/Users/tusharikasharma/project/demo/Pandas/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/pandas-and-bananas/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/tusharikasharma/project/demo/Pandas/src/templates/blog-post.js",
+      "id": "SitePage /pandas-and-bananas/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3407177c12d17d611238c7087ec8bce3",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /sweet-pandas-eating-sweets/": {
+      "jsonName": "sweet-pandas-eating-sweets-34f",
+      "internalComponentName": "ComponentSweetPandasEatingSweets",
+      "path": "/sweet-pandas-eating-sweets/",
+      "component": "/Users/tusharikasharma/project/demo/Pandas/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/sweet-pandas-eating-sweets/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/tusharikasharma/project/demo/Pandas/src/templates/blog-post.js",
+      "id": "SitePage /sweet-pandas-eating-sweets/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "aa0e0452729170f173c50371a5801bf1",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
     },
     "SitePage /about/": {
       "jsonName": "about-f34",
@@ -1070,66 +1538,29 @@
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
-    },
-    "8c17d305-504f-5c83-90c0-763861126a61": {
-      "id": "8c17d305-504f-5c83-90c0-763861126a61",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "be66fa58f1832ecf2cfa41ef1177746c",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/my-files.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/my-files.js",
-      "relativePath": "pages/my-files.js",
-      "extension": "js",
-      "size": 976,
-      "prettySize": "976 B",
-      "modifiedTime": "2018-10-07T05:05:12.000Z",
-      "accessTime": "2018-10-07T05:05:12.000Z",
-      "changeTime": "2018-10-07T05:05:12.000Z",
-      "birthTime": "2018-10-07T04:55:50.000Z",
-      "root": "/",
-      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/pages",
-      "base": "my-files.js",
-      "ext": ".js",
-      "name": "my-files",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 2021896,
-      "blocks": 8,
-      "atimeMs": 1538888712000,
-      "mtimeMs": 1538888712000,
-      "ctimeMs": 1538888712000,
-      "birthtimeMs": 1538888150000,
-      "atime": "2018-10-07T05:05:12.000Z",
-      "mtime": "2018-10-07T05:05:12.000Z",
-      "ctime": "2018-10-07T05:05:12.000Z",
-      "birthtime": "2018-10-07T04:55:50.000Z"
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "013fe1190ff7761e1eb636d9ae1cc007"
+    "PLUGINS_HASH": "e7e56fa2eabeae7d9923b092a09613b8"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "/about/",
-        "/",
         "sq--src-components-layout-js"
+      ],
+      "dd07fd2f-c4cc-5a26-80f0-8ecc37b7c8c1": [
+        "/pandas-and-bananas/"
+      ],
+      "4bea90b1-8700-562b-b9cf-cf1a3bca670a": [
+        "/sweet-pandas-eating-sweets/"
       ]
     },
     "connections": {
+      "MarkdownRemark": [
+        "/"
+      ],
       "File": [
         "/my-files/"
       ]
@@ -1137,12 +1568,18 @@
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "72/path---index-6a9-0kbugt4I1RyUkF6puTLtKlhp2s",
     "about-f34": "174/path---about-f-34-4c2-hRx9gYIHzxRutAycoPREtUcvSa4",
     "sq--src-components-layout-js": 3892401927,
-    "my-files-317": "689/path---my-files-317-4c7-q4PnxQtpyoGvyQoHktUuLE6Zno4"
+    "my-files-317": "396/path---my-files-317-4c7-GHJVPSPzckbsmL53xrWF5sTuCY",
+    "pandas-and-bananas-c27": "74/path---pandas-and-bananas-c-27-086-6z2Obr7WeHZs1zz24wrYOTNgc",
+    "sweet-pandas-eating-sweets-34f": "158/path---sweet-pandas-eating-sweets-34-f-7c4-lqavJYMa6rMabIGKUfDmeA9DNc8"
   },
   "components": {
+    "/Users/tusharikasharma/project/demo/Pandas/src/templates/blog-post.js": {
+      "query": "query usersTusharikasharmaProjectDemoPandasSrcTemplatesBlogPostJs861893041(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/tusharikasharma/project/demo/Pandas/src/templates/blog-post.js"
+    },
     "/Users/tusharikasharma/project/demo/Pandas/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/tusharikasharma/project/demo/Pandas/.cache/dev-404-page.js"
@@ -1152,7 +1589,7 @@
       "componentPath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/about.js"
     },
     "/Users/tusharikasharma/project/demo/Pandas/src/pages/index.js": {
-      "query": "",
+      "query": "query usersTusharikasharmaProjectDemoPandasSrcPagesIndexJs2068765159 {\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    totalCount\n    edges {\n      node {\n        id\n        frontmatter {\n          title\n          date(formatString: \"DD MMMM, YYYY\")\n        }\n        fields {\n          slug\n        }\n        excerpt\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/index.js"
     },
     "/Users/tusharikasharma/project/demo/Pandas/src/pages/my-files.js": {
