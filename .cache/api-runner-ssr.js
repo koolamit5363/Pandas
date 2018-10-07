@@ -2,8 +2,14 @@ var plugins = [{
       plugin: require('/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-plugin-emotion/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
+    },{
+      plugin: require('/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"GatsbyJS","short_name":"GatsbyJS","start_url":"/","background_color":"#6b37bf","theme_color":"#6b37bf","display":"minimal-ui"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

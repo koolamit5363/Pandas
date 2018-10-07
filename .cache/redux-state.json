@@ -524,6 +524,172 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onPrefetchPathname",
+        "onServiceWorkerActive"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.4.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-beta"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ec48725d444c0241664a5d4c809b53a2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c21528c08366fcaa54e1484c91305646",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-typography": {
       "resolve": "/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-plugin-typography",
       "id": "Plugin gatsby-plugin-typography",
@@ -602,11 +768,97 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "GatsbyJS",
+        "short_name": "GatsbyJS",
+        "start_url": "/",
+        "background_color": "#6b37bf",
+        "theme_color": "#6b37bf",
+        "display": "minimal-ui"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/tusharikasharma/project/demo/Pandas/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ffcfe337d1b45d7bca2328499b0db1c2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/tusharikasharma/project/demo/Pandas",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "f3329c8c840712416bbdc44ff707d5a5",
+      "version": "5f64558fa302ff45b39141c8a5637b7f",
       "pluginOptions": {
         "plugins": []
       },
@@ -639,6 +891,18 @@
             "version": "^2.0.5"
           },
           {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.4"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.0"
+          },
+          {
             "name": "gatsby-plugin-typography",
             "version": "^2.2.0"
           },
@@ -663,6 +927,10 @@
             "version": "^9.2.12"
           },
           {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
             "name": "react-typography",
             "version": "^0.16.13"
           },
@@ -683,7 +951,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "832d75a4f99adc0d5beb65b2dcef4a0c",
+        "contentDigest": "857811fe66d351fdca206fd3129ca22f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -791,12 +1059,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-07T19:16:50.183Z",
+      "buildTime": "2018-10-07T19:40:30.242Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0df2241579c53ce41189076efc97ccdc",
+        "contentDigest": "ba2af8e225315aaa83a5fdde6a671018",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -806,7 +1074,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "40a7192d2628075cd49856be23efaad4",
+        "contentDigest": "a3cbce611ed106430d73d2e207ad3ce1",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -818,7 +1086,7 @@
       "size": 204,
       "prettySize": "204 B",
       "modifiedTime": "2018-10-07T19:08:03.000Z",
-      "accessTime": "2018-10-07T19:16:52.000Z",
+      "accessTime": "2018-10-07T19:40:34.000Z",
       "changeTime": "2018-10-07T19:08:03.000Z",
       "birthTime": "2018-10-07T02:24:51.000Z",
       "root": "/",
@@ -836,11 +1104,11 @@
       "blksize": 4096,
       "ino": 1992242,
       "blocks": 0,
-      "atimeMs": 1538939812000,
+      "atimeMs": 1538941234000,
       "mtimeMs": 1538939283000,
       "ctimeMs": 1538939283000,
       "birthtimeMs": 1538879091000,
-      "atime": "2018-10-07T19:16:52.000Z",
+      "atime": "2018-10-07T19:40:34.000Z",
       "mtime": "2018-10-07T19:08:03.000Z",
       "ctime": "2018-10-07T19:08:03.000Z",
       "birthtime": "2018-10-07T02:24:51.000Z"
@@ -850,7 +1118,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "67f609de797f0c5d51aa406be6137681",
+        "contentDigest": "8a9a64090fc20f9d17ffebb64d087bd9",
         "type": "Directory",
         "description": "Directory \"src/components\"",
         "owner": "gatsby-source-filesystem"
@@ -862,7 +1130,7 @@
       "size": 102,
       "prettySize": "102 B",
       "modifiedTime": "2018-10-07T02:35:14.000Z",
-      "accessTime": "2018-10-07T19:16:52.000Z",
+      "accessTime": "2018-10-07T19:40:34.000Z",
       "changeTime": "2018-10-07T02:35:14.000Z",
       "birthTime": "2018-10-07T02:34:59.000Z",
       "root": "/",
@@ -880,11 +1148,11 @@
       "blksize": 4096,
       "ino": 2019738,
       "blocks": 0,
-      "atimeMs": 1538939812000,
+      "atimeMs": 1538941234000,
       "mtimeMs": 1538879714000,
       "ctimeMs": 1538879714000,
       "birthtimeMs": 1538879699000,
-      "atime": "2018-10-07T19:16:52.000Z",
+      "atime": "2018-10-07T19:40:34.000Z",
       "mtime": "2018-10-07T02:35:14.000Z",
       "ctime": "2018-10-07T02:35:14.000Z",
       "birthtime": "2018-10-07T02:34:59.000Z"
@@ -894,7 +1162,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "516541963f808117f7e1f82aace0903b",
+        "contentDigest": "e943fe5348f5c0f8c83eaec7ec3e7263",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -906,7 +1174,7 @@
       "size": 238,
       "prettySize": "238 B",
       "modifiedTime": "2018-10-07T18:09:23.000Z",
-      "accessTime": "2018-10-07T19:16:52.000Z",
+      "accessTime": "2018-10-07T19:40:34.000Z",
       "changeTime": "2018-10-07T18:09:23.000Z",
       "birthTime": "2018-10-07T02:24:51.000Z",
       "root": "/",
@@ -924,11 +1192,11 @@
       "blksize": 4096,
       "ino": 2018324,
       "blocks": 0,
-      "atimeMs": 1538939812000,
+      "atimeMs": 1538941234000,
       "mtimeMs": 1538935763000,
       "ctimeMs": 1538935763000,
       "birthtimeMs": 1538879091000,
-      "atime": "2018-10-07T19:16:52.000Z",
+      "atime": "2018-10-07T19:40:34.000Z",
       "mtime": "2018-10-07T18:09:23.000Z",
       "ctime": "2018-10-07T18:09:23.000Z",
       "birthtime": "2018-10-07T02:24:51.000Z"
@@ -938,7 +1206,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "87770fec8d9fb5e40a5e758763dccbb3",
+        "contentDigest": "b3c0aaa6e6dcee94458de81cc2b304ca",
         "type": "Directory",
         "description": "Directory \"src/templates\"",
         "owner": "gatsby-source-filesystem"
@@ -950,7 +1218,7 @@
       "size": 102,
       "prettySize": "102 B",
       "modifiedTime": "2018-10-07T19:08:27.000Z",
-      "accessTime": "2018-10-07T19:16:52.000Z",
+      "accessTime": "2018-10-07T19:40:34.000Z",
       "changeTime": "2018-10-07T19:08:27.000Z",
       "birthTime": "2018-10-07T19:08:03.000Z",
       "root": "/",
@@ -968,11 +1236,11 @@
       "blksize": 4096,
       "ino": 2095125,
       "blocks": 0,
-      "atimeMs": 1538939812000,
+      "atimeMs": 1538941234000,
       "mtimeMs": 1538939307000,
       "ctimeMs": 1538939307000,
       "birthtimeMs": 1538939283000,
-      "atime": "2018-10-07T19:16:52.000Z",
+      "atime": "2018-10-07T19:40:34.000Z",
       "mtime": "2018-10-07T19:08:27.000Z",
       "ctime": "2018-10-07T19:08:27.000Z",
       "birthtime": "2018-10-07T19:08:03.000Z"
@@ -982,7 +1250,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4f500f02aae3b0d256551b57b944c53a",
+        "contentDigest": "dec4024710f0e41cbe3caf0a11ac98c8",
         "type": "Directory",
         "description": "Directory \"src/utils\"",
         "owner": "gatsby-source-filesystem"
@@ -994,7 +1262,7 @@
       "size": 102,
       "prettySize": "102 B",
       "modifiedTime": "2018-10-07T02:41:15.000Z",
-      "accessTime": "2018-10-07T19:16:52.000Z",
+      "accessTime": "2018-10-07T19:40:34.000Z",
       "changeTime": "2018-10-07T02:41:15.000Z",
       "birthTime": "2018-10-07T02:41:02.000Z",
       "root": "/",
@@ -1012,104 +1280,14 @@
       "blksize": 4096,
       "ino": 2019857,
       "blocks": 0,
-      "atimeMs": 1538939812000,
+      "atimeMs": 1538941234000,
       "mtimeMs": 1538880075000,
       "ctimeMs": 1538880075000,
       "birthtimeMs": 1538880062000,
-      "atime": "2018-10-07T19:16:52.000Z",
+      "atime": "2018-10-07T19:40:34.000Z",
       "mtime": "2018-10-07T02:41:15.000Z",
       "ctime": "2018-10-07T02:41:15.000Z",
       "birthtime": "2018-10-07T02:41:02.000Z"
-    },
-    "b8380736-80f6-5e94-a10a-f41e49c3eb3c": {
-      "id": "b8380736-80f6-5e94-a10a-f41e49c3eb3c",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a02e20c684ef4e03d7cd31a8bc4c4303",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/components/layout.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/components/layout.js",
-      "relativePath": "components/layout.js",
-      "extension": "js",
-      "size": 897,
-      "prettySize": "897 B",
-      "modifiedTime": "2018-10-07T03:17:55.000Z",
-      "accessTime": "2018-10-07T19:05:47.000Z",
-      "changeTime": "2018-10-07T03:17:55.000Z",
-      "birthTime": "2018-10-07T02:35:14.000Z",
-      "root": "/",
-      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/components",
-      "base": "layout.js",
-      "ext": ".js",
-      "name": "layout",
-      "relativeDirectory": "components",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 2019743,
-      "blocks": 8,
-      "atimeMs": 1538939147000,
-      "mtimeMs": 1538882275000,
-      "ctimeMs": 1538882275000,
-      "birthtimeMs": 1538879714000,
-      "atime": "2018-10-07T19:05:47.000Z",
-      "mtime": "2018-10-07T03:17:55.000Z",
-      "ctime": "2018-10-07T03:17:55.000Z",
-      "birthtime": "2018-10-07T02:35:14.000Z"
-    },
-    "3585dfa5-56ef-58a4-ab8a-2d7a1748a16c": {
-      "id": "3585dfa5-56ef-58a4-ab8a-2d7a1748a16c",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "41721eaee745159f999d926bbaca9524",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/about.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/about.js",
-      "relativePath": "pages/about.js",
-      "extension": "js",
-      "size": 468,
-      "prettySize": "468 B",
-      "modifiedTime": "2018-10-07T03:03:02.000Z",
-      "accessTime": "2018-10-07T19:05:47.000Z",
-      "changeTime": "2018-10-07T03:03:02.000Z",
-      "birthTime": "2018-10-07T02:39:04.000Z",
-      "root": "/",
-      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/pages",
-      "base": "about.js",
-      "ext": ".js",
-      "name": "about",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 2019763,
-      "blocks": 8,
-      "atimeMs": 1538939147000,
-      "mtimeMs": 1538881382000,
-      "ctimeMs": 1538881382000,
-      "birthtimeMs": 1538879944000,
-      "atime": "2018-10-07T19:05:47.000Z",
-      "mtime": "2018-10-07T03:03:02.000Z",
-      "ctime": "2018-10-07T03:03:02.000Z",
-      "birthtime": "2018-10-07T02:39:04.000Z"
     },
     "76718e53-ce52-5397-84c5-e4b44cc3f2d6": {
       "id": "76718e53-ce52-5397-84c5-e4b44cc3f2d6",
@@ -1129,7 +1307,7 @@
       "size": 1671,
       "prettySize": "1.67 kB",
       "modifiedTime": "2018-10-07T19:16:33.000Z",
-      "accessTime": "2018-10-07T19:16:33.000Z",
+      "accessTime": "2018-10-07T19:39:57.000Z",
       "changeTime": "2018-10-07T19:16:33.000Z",
       "birthTime": "2018-10-07T02:24:51.000Z",
       "root": "/",
@@ -1147,14 +1325,104 @@
       "blksize": 4096,
       "ino": 2018325,
       "blocks": 8,
-      "atimeMs": 1538939793000,
+      "atimeMs": 1538941197000,
       "mtimeMs": 1538939793000,
       "ctimeMs": 1538939793000,
       "birthtimeMs": 1538879091000,
-      "atime": "2018-10-07T19:16:33.000Z",
+      "atime": "2018-10-07T19:39:57.000Z",
       "mtime": "2018-10-07T19:16:33.000Z",
       "ctime": "2018-10-07T19:16:33.000Z",
       "birthtime": "2018-10-07T02:24:51.000Z"
+    },
+    "3585dfa5-56ef-58a4-ab8a-2d7a1748a16c": {
+      "id": "3585dfa5-56ef-58a4-ab8a-2d7a1748a16c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "41721eaee745159f999d926bbaca9524",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/about.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/pages/about.js",
+      "relativePath": "pages/about.js",
+      "extension": "js",
+      "size": 468,
+      "prettySize": "468 B",
+      "modifiedTime": "2018-10-07T03:03:02.000Z",
+      "accessTime": "2018-10-07T19:34:39.000Z",
+      "changeTime": "2018-10-07T03:03:02.000Z",
+      "birthTime": "2018-10-07T02:39:04.000Z",
+      "root": "/",
+      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2019763,
+      "blocks": 8,
+      "atimeMs": 1538940879000,
+      "mtimeMs": 1538881382000,
+      "ctimeMs": 1538881382000,
+      "birthtimeMs": 1538879944000,
+      "atime": "2018-10-07T19:34:39.000Z",
+      "mtime": "2018-10-07T03:03:02.000Z",
+      "ctime": "2018-10-07T03:03:02.000Z",
+      "birthtime": "2018-10-07T02:39:04.000Z"
+    },
+    "b8380736-80f6-5e94-a10a-f41e49c3eb3c": {
+      "id": "b8380736-80f6-5e94-a10a-f41e49c3eb3c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a02e20c684ef4e03d7cd31a8bc4c4303",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/components/layout.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/tusharikasharma/project/demo/Pandas/src/components/layout.js",
+      "relativePath": "components/layout.js",
+      "extension": "js",
+      "size": 897,
+      "prettySize": "897 B",
+      "modifiedTime": "2018-10-07T03:17:55.000Z",
+      "accessTime": "2018-10-07T19:34:39.000Z",
+      "changeTime": "2018-10-07T03:17:55.000Z",
+      "birthTime": "2018-10-07T02:35:14.000Z",
+      "root": "/",
+      "dir": "/Users/tusharikasharma/project/demo/Pandas/src/components",
+      "base": "layout.js",
+      "ext": ".js",
+      "name": "layout",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2019743,
+      "blocks": 8,
+      "atimeMs": 1538940879000,
+      "mtimeMs": 1538882275000,
+      "ctimeMs": 1538882275000,
+      "birthtimeMs": 1538879714000,
+      "atime": "2018-10-07T19:34:39.000Z",
+      "mtime": "2018-10-07T03:17:55.000Z",
+      "ctime": "2018-10-07T03:17:55.000Z",
+      "birthtime": "2018-10-07T02:35:14.000Z"
     },
     "8c17d305-504f-5c83-90c0-763861126a61": {
       "id": "8c17d305-504f-5c83-90c0-763861126a61",
@@ -1174,7 +1442,7 @@
       "size": 976,
       "prettySize": "976 B",
       "modifiedTime": "2018-10-07T05:05:12.000Z",
-      "accessTime": "2018-10-07T19:05:47.000Z",
+      "accessTime": "2018-10-07T19:34:39.000Z",
       "changeTime": "2018-10-07T05:05:12.000Z",
       "birthTime": "2018-10-07T04:55:50.000Z",
       "root": "/",
@@ -1192,11 +1460,11 @@
       "blksize": 4096,
       "ino": 2021896,
       "blocks": 8,
-      "atimeMs": 1538939147000,
+      "atimeMs": 1538940879000,
       "mtimeMs": 1538888712000,
       "ctimeMs": 1538888712000,
       "birthtimeMs": 1538888150000,
-      "atime": "2018-10-07T19:05:47.000Z",
+      "atime": "2018-10-07T19:34:39.000Z",
       "mtime": "2018-10-07T05:05:12.000Z",
       "ctime": "2018-10-07T05:05:12.000Z",
       "birthtime": "2018-10-07T04:55:50.000Z"
@@ -1221,7 +1489,7 @@
       "size": 291,
       "prettySize": "291 B",
       "modifiedTime": "2018-10-07T18:09:23.000Z",
-      "accessTime": "2018-10-07T19:05:43.000Z",
+      "accessTime": "2018-10-07T19:34:34.000Z",
       "changeTime": "2018-10-07T18:09:23.000Z",
       "birthTime": "2018-10-07T18:09:23.000Z",
       "root": "/",
@@ -1239,11 +1507,11 @@
       "blksize": 4096,
       "ino": 2093091,
       "blocks": 8,
-      "atimeMs": 1538939143000,
+      "atimeMs": 1538940874000,
       "mtimeMs": 1538935763000,
       "ctimeMs": 1538935763000,
       "birthtimeMs": 1538935763000,
-      "atime": "2018-10-07T19:05:43.000Z",
+      "atime": "2018-10-07T19:34:34.000Z",
       "mtime": "2018-10-07T18:09:23.000Z",
       "ctime": "2018-10-07T18:09:23.000Z",
       "birthtime": "2018-10-07T18:09:23.000Z"
@@ -1268,7 +1536,7 @@
       "size": 255,
       "prettySize": "255 B",
       "modifiedTime": "2018-10-07T18:00:35.000Z",
-      "accessTime": "2018-10-07T19:05:43.000Z",
+      "accessTime": "2018-10-07T19:34:34.000Z",
       "changeTime": "2018-10-07T18:00:35.000Z",
       "birthTime": "2018-10-07T18:00:35.000Z",
       "root": "/",
@@ -1286,11 +1554,11 @@
       "blksize": 4096,
       "ino": 2090151,
       "blocks": 8,
-      "atimeMs": 1538939143000,
+      "atimeMs": 1538940874000,
       "mtimeMs": 1538935235000,
       "ctimeMs": 1538935235000,
       "birthtimeMs": 1538935235000,
-      "atime": "2018-10-07T19:05:43.000Z",
+      "atime": "2018-10-07T19:34:34.000Z",
       "mtime": "2018-10-07T18:00:35.000Z",
       "ctime": "2018-10-07T18:00:35.000Z",
       "birthtime": "2018-10-07T18:00:35.000Z"
@@ -1313,7 +1581,7 @@
       "size": 519,
       "prettySize": "519 B",
       "modifiedTime": "2018-10-07T19:14:08.000Z",
-      "accessTime": "2018-10-07T19:14:08.000Z",
+      "accessTime": "2018-10-07T19:34:39.000Z",
       "changeTime": "2018-10-07T19:14:08.000Z",
       "birthTime": "2018-10-07T19:08:27.000Z",
       "root": "/",
@@ -1331,11 +1599,11 @@
       "blksize": 4096,
       "ino": 2095134,
       "blocks": 8,
-      "atimeMs": 1538939648000,
+      "atimeMs": 1538940879000,
       "mtimeMs": 1538939648000,
       "ctimeMs": 1538939648000,
       "birthtimeMs": 1538939307000,
-      "atime": "2018-10-07T19:14:08.000Z",
+      "atime": "2018-10-07T19:34:39.000Z",
       "mtime": "2018-10-07T19:14:08.000Z",
       "ctime": "2018-10-07T19:14:08.000Z",
       "birthtime": "2018-10-07T19:08:27.000Z"
@@ -1358,7 +1626,7 @@
       "size": 204,
       "prettySize": "204 B",
       "modifiedTime": "2018-10-07T02:41:15.000Z",
-      "accessTime": "2018-10-07T19:05:47.000Z",
+      "accessTime": "2018-10-07T19:34:39.000Z",
       "changeTime": "2018-10-07T02:41:15.000Z",
       "birthTime": "2018-10-07T02:41:15.000Z",
       "root": "/",
@@ -1376,11 +1644,11 @@
       "blksize": 4096,
       "ino": 2019862,
       "blocks": 8,
-      "atimeMs": 1538939147000,
+      "atimeMs": 1538940879000,
       "mtimeMs": 1538880075000,
       "ctimeMs": 1538880075000,
       "birthtimeMs": 1538880075000,
-      "atime": "2018-10-07T19:05:47.000Z",
+      "atime": "2018-10-07T19:34:39.000Z",
       "mtime": "2018-10-07T02:41:15.000Z",
       "ctime": "2018-10-07T02:41:15.000Z",
       "birthtime": "2018-10-07T02:41:15.000Z"
@@ -1542,13 +1810,13 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "e7e56fa2eabeae7d9923b092a09613b8"
+    "PLUGINS_HASH": "91578789ca88ed8bd4a9050749d9c8dd"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "/about/",
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-js",
+        "/about/"
       ],
       "dd07fd2f-c4cc-5a26-80f0-8ecc37b7c8c1": [
         "/pandas-and-bananas/"
@@ -1567,11 +1835,11 @@
     }
   },
   "jsonDataPaths": {
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "72/path---index-6a9-0kbugt4I1RyUkF6puTLtKlhp2s",
-    "about-f34": "174/path---about-f-34-4c2-hRx9gYIHzxRutAycoPREtUcvSa4",
     "sq--src-components-layout-js": 3892401927,
-    "my-files-317": "396/path---my-files-317-4c7-GHJVPSPzckbsmL53xrWF5sTuCY",
+    "about-f34": "174/path---about-f-34-4c2-hRx9gYIHzxRutAycoPREtUcvSa4",
+    "my-files-317": "131/path---my-files-317-4c7-0kF8p2jvzOQY2c5Fc0U76kfTw",
+    "index": "72/path---index-6a9-0kbugt4I1RyUkF6puTLtKlhp2s",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "pandas-and-bananas-c27": "74/path---pandas-and-bananas-c-27-086-6z2Obr7WeHZs1zz24wrYOTNgc",
     "sweet-pandas-eating-sweets-34f": "158/path---sweet-pandas-eating-sweets-34-f-7c4-lqavJYMa6rMabIGKUfDmeA9DNc8"
   },
